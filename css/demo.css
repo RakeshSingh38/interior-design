@@ -1,0 +1,60 @@
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+b {
+  display: flex;
+  background: #e3edf7;
+  height: 55px;
+  width: 55px;
+  margin: 0 10px;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0);
+  transition: transform 0.5s;
+}
+
+b i {
+  font-size: 50px;
+  color: #777;
+  transition: transform 0.5s;
+}
+
+b:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  border: 1px solid rgba(0, 0, 0, 0.01);
+  transform: translateY(2px);
+}
+
+b:hover i {
+  transform: scale(0.9);
+}
+
+b:hover .fa-facebook {
+  color: #3b5998;
+}
+
+b:hover .fa-twitter {
+  color: #00acee;
+}
+
+b:hover .fa-github {
+  color: #000000;
+}
+
+b:hover .fa-instagram {
+  color: #f14843;
+}
+
+b:hover .fa-linkedin-in {
+  color: #3b5998;
+}
